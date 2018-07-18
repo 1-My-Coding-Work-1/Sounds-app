@@ -12,6 +12,13 @@
 		87184C8A20FF82700086C3E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87184C8820FF82700086C3E6 /* Main.storyboard */; };
 		87184C8C20FF82740086C3E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87184C8B20FF82740086C3E6 /* Assets.xcassets */; };
 		87184C8F20FF82740086C3E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87184C8D20FF82740086C3E6 /* LaunchScreen.storyboard */; };
+		87184CAB20FF8B3F0086C3E6 /* SoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87184CAA20FF8B3F0086C3E6 /* SoundsViewController.swift */; };
+		87184CAC20FF95440086C3E6 /* blackbirdSinging.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 87184CA520FF891E0086C3E6 /* blackbirdSinging.mp3 */; };
+		87184CAD20FF95440086C3E6 /* cinematicDrums.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 87184CA620FF892A0086C3E6 /* cinematicDrums.mp3 */; };
+		87184CAE20FF95440086C3E6 /* firecrackers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 87184CA720FF892F0086C3E6 /* firecrackers.mp3 */; };
+		87184CAF20FF95440086C3E6 /* oceanSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 87184CA820FF89350086C3E6 /* oceanSound.mp3 */; };
+		87184CB020FF95440086C3E6 /* caveDrop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 87184CA920FF893E0086C3E6 /* caveDrop.mp3 */; };
+		87184CC120FFA0BE0086C3E6 /* Sounds info in Resources */ = {isa = PBXBuildFile; fileRef = 87184CC020FFA0BD0086C3E6 /* Sounds info */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		87184C8B20FF82740086C3E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87184C8E20FF82740086C3E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87184C9020FF82740086C3E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87184CA520FF891E0086C3E6 /* blackbirdSinging.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = blackbirdSinging.mp3; sourceTree = "<group>"; };
+		87184CA620FF892A0086C3E6 /* cinematicDrums.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cinematicDrums.mp3; sourceTree = "<group>"; };
+		87184CA720FF892F0086C3E6 /* firecrackers.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = firecrackers.mp3; sourceTree = "<group>"; };
+		87184CA820FF89350086C3E6 /* oceanSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oceanSound.mp3; sourceTree = "<group>"; };
+		87184CA920FF893E0086C3E6 /* caveDrop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = caveDrop.mp3; sourceTree = "<group>"; };
+		87184CAA20FF8B3F0086C3E6 /* SoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsViewController.swift; sourceTree = "<group>"; };
+		87184CC020FFA0BD0086C3E6 /* Sounds info */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Sounds info"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,8 +52,10 @@
 		87184C7820FF82700086C3E6 = {
 			isa = PBXGroup;
 			children = (
+				87184CBF20FFA0650086C3E6 /* New Group */,
 				87184C8320FF82700086C3E6 /* Sounds app */,
 				87184C8220FF82700086C3E6 /* Products */,
+				87184CC020FFA0BD0086C3E6 /* Sounds info */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,11 +73,24 @@
 				87184C8420FF82700086C3E6 /* AppDelegate.swift */,
 				87184C8620FF82700086C3E6 /* ViewController.swift */,
 				87184C8820FF82700086C3E6 /* Main.storyboard */,
+				87184CAA20FF8B3F0086C3E6 /* SoundsViewController.swift */,
 				87184C8B20FF82740086C3E6 /* Assets.xcassets */,
 				87184C8D20FF82740086C3E6 /* LaunchScreen.storyboard */,
 				87184C9020FF82740086C3E6 /* Info.plist */,
+				87184CA520FF891E0086C3E6 /* blackbirdSinging.mp3 */,
+				87184CA620FF892A0086C3E6 /* cinematicDrums.mp3 */,
+				87184CA720FF892F0086C3E6 /* firecrackers.mp3 */,
+				87184CA820FF89350086C3E6 /* oceanSound.mp3 */,
+				87184CA920FF893E0086C3E6 /* caveDrop.mp3 */,
 			);
 			path = "Sounds app";
+			sourceTree = "<group>";
+		};
+		87184CBF20FFA0650086C3E6 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +151,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87184CAC20FF95440086C3E6 /* blackbirdSinging.mp3 in Resources */,
+				87184CAD20FF95440086C3E6 /* cinematicDrums.mp3 in Resources */,
+				87184CC120FFA0BE0086C3E6 /* Sounds info in Resources */,
+				87184CAE20FF95440086C3E6 /* firecrackers.mp3 in Resources */,
+				87184CAF20FF95440086C3E6 /* oceanSound.mp3 in Resources */,
+				87184CB020FF95440086C3E6 /* caveDrop.mp3 in Resources */,
 				87184C8F20FF82740086C3E6 /* LaunchScreen.storyboard in Resources */,
 				87184C8C20FF82740086C3E6 /* Assets.xcassets in Resources */,
 				87184C8A20FF82700086C3E6 /* Main.storyboard in Resources */,
@@ -137,6 +172,7 @@
 			files = (
 				87184C8720FF82700086C3E6 /* ViewController.swift in Sources */,
 				87184C8520FF82700086C3E6 /* AppDelegate.swift in Sources */,
+				87184CAB20FF8B3F0086C3E6 /* SoundsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
